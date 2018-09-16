@@ -1,0 +1,525 @@
+body{
+	margin: 0;
+}
+
+.header{
+	background: url(../img/bg.png) center;
+	background-repeat: no-repeat;
+	min-height: 700px;
+
+}
+.header-top{
+	padding-top: 40px;
+	font-family: 'GeometriaLight';
+}
+.header-mail{
+	margin-top: 8px;	
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: 300;
+}
+.header-mail__p{
+	display: inline-block;
+	color: #ffffff;
+font-weight: 300;
+}
+.header-phone{
+	 text-align: right;
+}
+.header-phone__call{
+	color: #ffffff;
+font-size: 24px;
+font-weight: 300;
+letter-spacing: 0.48px;
+}
+.header-phone__back{
+	margin-right: 90px;
+	color: #e92518;
+	font-size: 16px;
+	font-weight: 300;
+	text-decoration: underline;
+	letter-spacing: 0.32px;
+	text-align: left;
+}
+.descr{
+	margin-top: 158px;
+}
+.descr-content{
+	
+	color: #ffffff;
+font-family: 'Playfair Display', serif;
+font-size: 48px;
+font-weight: 400;
+letter-spacing: 0.96px;
+}
+.wrapper-img{
+	margin-top: 115px;
+	width: 489px;
+height: 396px;
+}
+.button{
+	width: 311px;
+height: 66px;
+box-shadow: 0 15px 40px rgba(233, 37, 24, 0.3);
+border-radius: 33px;
+border: none;
+background-color: #e92518;
+}
+.descr-btn{
+margin-top: 65px;
+color: #ffffff;
+font-family: 'GeometriaLight';
+font-size: 18px;
+font-weight: 700;
+letter-spacing: 0.36px;
+}
+.quiz{
+padding-top: 120px;
+width: 100%;
+height: 460px;
+background-color: #191a1e;
+}
+.quiz__text{
+position: relative;
+margin-top: 40px;
+color: #ffffff;
+font-family: "Playfair Display", serif;
+font-size: 30px;
+font-weight: 400;
+letter-spacing: 0.6px;
+}
+.quiz__text:before{
+	position: absolute;
+	content: '';
+	bottom: 150px;
+	width: 70px;
+	height: 10px;
+	box-shadow: 0 15px 40px rgba(233, 37, 24, 0.3);
+	background-color: #e92518;
+}
+.quiz__descr{
+	margin-top: 40px;
+	color: #ffffff;
+font-family: 'GeometriaLight';
+font-size: 14px;
+font-weight: 300;
+/* Text style for "Чтобы его" */
+letter-spacing: 0.28px;
+}
+.quiz__p{
+	color: #ffffff;
+font-family: 'GeometriaMedium';
+font-size: 18px;
+font-weight: 500;
+/* Text style for "В,  каком" */
+letter-spacing: 0.36px;
+}
+.colors{
+	padding: 0;
+	margin-top: 30px;
+	
+}
+.checked{
+	position: relative;
+	display: inline-block;
+	margin-right: 50px;
+}
+.checkbox{
+	color: #ffffff;
+	font-family: 'GeometriaLight';
+	font-size: 15px;
+	font-weight: 400;
+	/* Text style for "С, иний" */
+	letter-spacing: 0.3px;
+}
+.active{
+	font-weight: 700;
+}
+
+.btn__wrapper{
+	display: inline-block;
+	margin-top: 43px;
+	color: #a2a2a2;
+font-family: "Playfair Display";
+font-size: 18px;
+font-weight: 400;
+/* Text style for "Назад" */
+letter-spacing: 0.36px;
+}
+.btn-back{
+	width: 140px;
+height: 50px;
+border-radius: 25px;
+border: 1px solid #292b2f;
+background-color: #191a1e;
+}
+.btn__wrap{
+	display: inline-block;
+	margin-top: 43px;
+	float: right;
+	color: #ffffff;
+font-family: "Playfair Display";
+font-size: 18px;
+font-weight: 400;
+/* Text style for "Далее" */
+letter-spacing: 0.36px;
+}
+.btn-next{
+	width: 140px;
+height: 50px;
+border-radius: 25px;
+border: none;
+background-color: #e92518;
+}
+.quiz-bord{
+	padding-top: 19px;
+	padding-left: 20px;
+	width: 250px;
+height: 114px;
+background-color: #252629;
+color: #ffffff;
+font-family: Geometria;
+font-size: 16px;
+font-weight: 400;
+letter-spacing: 0.32px;
+}
+.quiz-numbers{
+	margin-top: 41px;
+	color: #565656;
+font-family: "Playfair Display";
+font-size: 18px;
+font-weight: 400;
+/* Text style for "01" */
+color: #ffffff;
+font-size: 30px;
+letter-spacing: 0.6px;
+/* Text style for "" */
+color: #ffffff;
+font-size: 20px;
+letter-spacing: 0.4px;
+/* Text style for "/ 06" */
+letter-spacing: 0.36px;
+}
+.quiz-quest{
+	color: #ffffff;
+font-family: Geometria;
+font-size: 14px;
+font-weight: 300;
+/* Text style for "в, опрос" */
+letter-spacing: 0.28px;
+}
+.colons{	
+	padding-top: 159px;
+	width: 100%;
+min-height: 580px;
+background-color: #ffffff;
+}
+.what{
+	color: #191a1e;
+font-family: "Playfair Display";
+font-size: 30px;
+font-weight: 400;
+/* Text style for "Ч, то мы п" */
+letter-spacing: 0.6px;
+}
+.borders{
+	margin-top: 43px;
+	width: 270px;
+height: 211px;
+background-color: #f3f3f4;
+}
+.borders-number{
+display: inline-block;
+margin-left: 31px;
+margin-top: 29px;
+}
+.borders-text{
+	margin-top: 20px;
+	margin-left: 31px;
+	width: 200px;
+	color: #191a1e;
+font-family: 'Geometria';
+font-size: 14px;
+font-weight: 400;
+ line-height: 1.2;
+/* Text style for "L, orem ip" */
+letter-spacing: 0.28px;
+}
+.borders-text__3{
+	margin-top: 6px;
+	margin-left: 31px;
+	width: 200px;
+	color: #191a1e;
+font-family: 'Geometria';
+font-size: 14px;
+font-weight: 400;
+/* Text style for "L, orem ip" */
+letter-spacing: 0.28px;
+}
+.borders-text__4{
+	margin-top: 7px;
+	margin-left: 31px;
+	width: 200px;
+	color: #191a1e;
+font-family: 'Geometria';
+font-size: 14px;
+font-weight: 400;
+/* Text style for "L, orem ip" */
+letter-spacing: 0.28px;
+}
+.reviews{
+	width: 100%;
+	min-height: 707px;
+	background-color: #191a1e;
+}
+.reviews-text{
+	position: relative;
+	padding-top: 160px;
+	color: #ffffff;
+font-family: "Playfair Display";
+font-size: 30px;
+font-weight: 400;
+/* Text style for "Даем слово" */
+letter-spacing: 0.6px;
+}
+.reviews-text:before{
+	position: absolute;
+	content: '';
+	bottom: 70px;
+	width: 70px;
+	height: 10px;
+	box-shadow: 0 15px 40px rgba(233, 37, 24, 0.3);
+	background-color: #e92518;
+}
+.reviews-citation{
+	margin-top: 18px;
+	color: #ffffff;
+font-family: Geometria;
+font-size: 14px;
+font-weight: 300;
+/* Text style for "Мы не из т" */
+letter-spacing: 0.28px;
+}
+.reviews-people{
+	margin-top: 59px;
+}
+.review-people__girl{
+	cursor: pointer;
+}
+.review-people__img{
+	display: inline-block;
+	width: 80px;
+height: 80px;
+}
+.review-text__girl{
+	float: right;
+	margin-top: 14px;
+    margin-right: 70px;
+	color: #ffffff;
+font-family: "Playfair Display";
+font-size: 22px;
+font-weight: 400;
+/* Text style for "М, ария Ан" */
+letter-spacing: 0.44px;
+}
+.review-text__girl2{
+	float: right;
+	margin-top: -25px;
+    margin-right: 110px;
+	color: #636363;
+font-family: Geometria;
+font-size: 14px;
+font-weight: 400;
+/* Text style for "Постоянный" */
+letter-spacing: 0.28px;
+}
+.reviews-plus{
+	margin-top: 40px;
+	width: 1170px;
+height: 190px;
+background-color: #ffffff;
+}
+.reviews-plus__text{
+	padding-top: 40px;
+	padding-left: 41px;
+	margin-right: 95px;
+	color: #191a1e;
+font-family: Geometria;
+font-size: 16px;
+font-weight: 400;
+}
+.callback{		
+	background: url(../img/condon.png) center;
+	width: 100%;
+	height: 734px;
+}
+.callback__title{
+	margin-top: 120px;
+	text-align: center;
+	color: #ffffff;
+font-family: "Playfair Display";
+font-size: 36px;
+letter-spacing: 0.72px;
+}
+.callback__ready{
+	text-align: center;
+	color: #ffffff;
+font-family: "Playfair Display";
+font-size: 24px;
+letter-spacing: 0.48px;
+}
+.callback__form{
+	margin-top: 46px;
+	padding-left: 35px;
+	padding-right: 35px;
+	width: 370px;
+height: 376px;
+background-color: #ffffff;
+}
+.callback-form__title{
+	padding-top: 44px;
+	text-align: center;
+color: #252629;
+font-family: 'Geometria';
+font-size: 16px;
+font-weight: 400;
+/* Text style for "Оставьте з" */
+letter-spacing: 0.32px;
+}
+.method-form{
+	margin-top: 29px;
+	font-family: 'Geometria';
+	font-size: 16px;
+}
+.method-form .name{
+background: url(../img/user.png) no-repeat 10px;
+margin-bottom: 23px;
+	    padding-left: 35px;
+height: 45px;
+
+}
+.method-form .phone{
+	background: url(../img/tel.png)  no-repeat 10px;
+	padding-left: 35px; 
+	height: 45px;
+}
+.form-control {
+	
+	
+  padding: 0;
+  border: 0;
+  outline: 0;
+  
+}
+.form-control:active, .form-control:focus {
+  outline: 0;
+  border-bottom: 1px solid #e92518;;
+}
+.method-form .name:active, .method-form .name:focus{
+	border: 0;
+	border-bottom: 1px solid #e92518;;
+}
+
+.btn-gradient{
+	margin-top: 24px;
+	width: 100%;
+height: 52px;
+box-shadow: 0 15px 40px rgba(233, 37, 24, 0.3);
+border-radius: 26px;
+background-color: #e92518;
+border: 0;
+color: #ffffff;
+font-family: Geometria;
+font-size: 18px;
+font-weight: 700;
+/* Text style for "О, ставить" */
+letter-spacing: 0.36px;
+}
+.cb{
+	margin-top: 24px;
+	color: #525252;
+font-family: "ProximaNova";
+font-size: 12px;
+font-weight: 400;
+/* Text style for "Я соглашаю" */
+letter-spacing: 0.24px;
+/* Text style for "обработки" */
+letter-spacing: 0.24px;
+}
+.footer__text{
+	text-align: left;
+	color: #ffffff;
+font-family: Geometria;
+font-size: 14px;
+font-weight: 300;
+line-height: 24px;
+/* Text style for "В, се прав" */
+letter-spacing: 0.28px;
+}
+.footer__yes{
+	text-align: center;
+	color: #ffffff;
+font-family: Geometria;
+font-size: 14px;
+font-weight: 300;
+line-height: 24px;
+text-decoration: underline;
+/* Text style for "Политика к" */
+letter-spacing: 0.28px;
+}
+.wrapper__logo{
+	display: inline-block;
+}
+.footer__logo{
+	text-align: right;
+}
+.footer{
+	margin-top: 62px;
+}
+.checkbox input[type="radio"]{
+	display: none;
+}
+.checkbox input[type="radio"]:checked~.custom-checkbox:after {
+	width: 12px;
+height: 12px;
+background-color: #e92518;
+border-radius: 50%;
+
+}
+
+.checkbox{
+	display: flex;
+	align-items: center;
+}
+.custom-checkbox{
+	position: relative;
+	display: block;
+	width: 24px;
+height: 24px;
+background-color: #25262b;
+border-radius: 50%;
+margin-right: 15px;
+}
+.custom-checkbox:after {
+	content: '';
+	position: absolute;
+	top: 6px;
+	right: 6px;
+	left: 6px;
+	bottom: 6px;
+	transition: all linear 0.3s;
+}
+.radiobox input[type="checkbox"]:checked~.custom-checkbox:after {
+    width: 12px;
+    height: 12px;
+    background-color: #e92518;
+    border-radius: 50%;
+}
+
+.radiobox input[type="checkbox"]{
+	display: none;
+}
+.radiobox{
+	display: flex;
+	align-items: center;
+}
